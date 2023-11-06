@@ -39,10 +39,10 @@ public class BikesController {
     public void injectBikesToDB() {
         Bike firstBike = new Bike();
         firstBike.setName("FirstBike");
-        firstBike.setPurchaseData(new Date());
+        firstBike.setPurchaseDate(new Date());
         Bike secondBike = new Bike();
         secondBike.setName("SecondBike");
-        secondBike.setPurchaseData(new Date());
+        secondBike.setPurchaseDate(new Date());
         bikeRepository.save(firstBike);
         bikeRepository.save(secondBike);
     }
