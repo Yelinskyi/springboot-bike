@@ -42,6 +42,8 @@ public class BikesController {
         firstBike.setPurchaseDate(new Date());
         Bike secondBike = new Bike();
         secondBike.setName("SecondBike");
+        Bike thirdBike = new Bike();
+        secondBike.setName("ThirdBike");
         secondBike.setPurchaseDate(new Date());
         bikeRepository.save(firstBike);
         bikeRepository.save(secondBike);
